@@ -15,3 +15,14 @@ html {
 .border-gradient {
   border: linear-gradient(to right, theme('colors.limeGreen'), theme('colors.brightCyan'));
 }
+
+.custom-button {
+  background: linear-gradient(to right, theme('colors.limeGreen'), theme('colors.brightCyan'));
+  padding: 0.5rem 2rem;
+  border-radius: 9999px;
+  color: white;
+}
+
+.custom-button:hover {
+  opacity: 60%;
+}
