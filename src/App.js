@@ -3,7 +3,7 @@ import { Navbar, Header, Benefits, Articles, Footer } from './components'
 
 const App = () => {
   return (
-    <div>
+    <div className="font-poppins">
       <Navbar />
       <Header />
       <Benefits />
