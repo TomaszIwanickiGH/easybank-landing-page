@@ -24,7 +24,7 @@ const Navbar = () => {
           <li className="border-b-white border-b-4 py-2 text-grayischBlue hover:border-b-limeGreen hover:cursor-pointer hover:text-black">Careers</li>
         </a>
       </ul>
-      <button className="lime-gradient py-2 px-8 rounded-full text-white hover:opacity-60">Request Invite</button>
+      <button className="custom-button">Request Invite</button>
     </div>
   )
 }
