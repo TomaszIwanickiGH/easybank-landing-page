@@ -2,7 +2,7 @@ import React from 'react'
 
 const Article = (props) => {
   return (
-    <div className="flex flex-col justify-center w-[20%] bg-white">
+    <div className="flex flex-col justify-center lg:items-start w-full sm:w-[45%] lg:w-[20%] bg-white px-8 lg:px-0">
       <img className="h-[170px]" src={props.image} alt="img" />
       <div className="px-4 mt-6">
         <h4 className="text-grayischBlue text-xs">{props.author}</h4>
