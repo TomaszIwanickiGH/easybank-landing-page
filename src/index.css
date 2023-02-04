@@ -21,6 +21,7 @@ html {
   padding: 0.5rem 2rem;
   border-radius: 9999px;
   color: white;
+  width: 180px;
 }
 
 .custom-button:hover {
