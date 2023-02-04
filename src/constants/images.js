@@ -12,6 +12,7 @@ import iconPinterest from '../assets/icon-pinterest.svg'
 import iconTwitter from '../assets/icon-twitter.svg'
 import iconYoutube from '../assets/icon-youtube.svg'
 import logo from '../assets/logo.svg'
+import footerLogo from '../assets/footer-logo.svg'
 import imageConfetti from '../assets/image-confetti.jpg'
 import imageCurrency from '../assets/image-currency.jpg'
 import imageMockups from '../assets/image-mockups.png'
@@ -33,6 +34,7 @@ export default {
   iconTwitter,
   iconYoutube,
   logo,
+  footerLogo,
   imageConfetti,
   imageCurrency,
   imageMockups,
