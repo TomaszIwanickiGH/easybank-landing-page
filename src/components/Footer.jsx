@@ -3,7 +3,7 @@ import { images } from '../constants'
 
 const Footer = () => {
   return (
-    <div className="flex justify-around bg-darkBlue py-12">
+    <div id="contact" className="flex justify-around bg-darkBlue py-12">
       <div className="flex flex-col justify-center items-center">
         <a href="#">
           <img src={images.footerLogo} alt="logo" />
@@ -20,7 +20,7 @@ const Footer = () => {
         <a href="#about">
           <li className="hover:text-limeGreen">About Us</li>
         </a>
-        <a href="#footer">
+        <a href="#contact">
           <li className="hover:text-limeGreen">Contact</li>
         </a>
         <a href="#blog">
@@ -28,13 +28,13 @@ const Footer = () => {
         </a>
       </ul>
       <ul className="flex flex-col text-white gap-3">
-        <a href="#careers">
+        <a href="#blog">
           <li className="hover:text-limeGreen">Careers</li>
         </a>
-        <a href="#footer">
+        <a href="#contact">
           <li className="hover:text-limeGreen">Support</li>
         </a>
-        <a href="#footer">
+        <a href="#contact">
           <li className="hover:text-limeGreen">Privacy Policy</li>
         </a>
       </ul>

@@ -4,7 +4,7 @@ import { images } from '../constants'
 const Navbar = () => {
   return (
     <div className="container flex justify-around items-center py-4">
-      <a href="/">
+      <a href="#">
         <img src={images.logo} alt="logo" />
       </a>
       <ul className="flex gap-8">
@@ -20,7 +20,7 @@ const Navbar = () => {
         <a href="#blog">
           <li className="border-b-white border-b-4 py-2 text-grayischBlue hover:border-b-limeGreen hover:cursor-pointer hover:text-black">Blog</li>
         </a>
-        <a href="#careers">
+        <a href="#blog">
           <li className="border-b-white border-b-4 py-2 text-grayischBlue hover:border-b-limeGreen hover:cursor-pointer hover:text-black">Careers</li>
         </a>
       </ul>

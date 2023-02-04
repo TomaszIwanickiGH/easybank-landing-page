@@ -4,7 +4,7 @@ import Benefit from './Benefit'
 
 const Benefits = () => {
   return (
-    <div className="bg-lightGrayischBlue flex flex-col pl-32">
+    <div id="about" className="bg-lightGrayischBlue flex flex-col pl-32">
       <div className="w-[50%]">
         <h2 className="text-3xl mt-12 font-normal">Why choose Easybank?</h2>
         <p className="text-grayischBlue my-4">We leverage Open Banking to turn your bank account into financial hub. Control your finances like never before.</p>

@@ -3,7 +3,7 @@ import { images } from '../constants'
 
 const Header = () => {
   return (
-    <div className="container flex justify-around bg-veryLightGray relative overflow-hidden h-[800px]">
+    <div id="home" className="container flex justify-around bg-veryLightGray relative overflow-hidden h-[800px]">
       <div className="flex flex-col justify-center items-center]">
         <h1 className="text-5xl w-[50%]">
           Next generation <br /> digital banking
