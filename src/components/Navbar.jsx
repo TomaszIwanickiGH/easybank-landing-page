@@ -3,7 +3,7 @@ import { images } from '../constants'
 
 const Navbar = () => {
   return (
-    <div className="container flex justify-around items-center py-8">
+    <div className="container flex justify-around items-center py-4">
       <a href="/">
         <img src={images.logo} alt="logo" />
       </a>
